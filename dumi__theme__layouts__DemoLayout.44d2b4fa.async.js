@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_koko_libs=self.webpackChunk_koko_libs||[]).push([[252],{95012:function(r,o,n){n.r(o),n.d(o,{default:function(){return l}});var u=n(95979),t=n(22596),s=n(85893),l=function(){var d=(0,u.pC)();return(0,s.jsx)(t.Z,{children:d})}}}]);
