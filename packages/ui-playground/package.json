@@ -1,0 +1,20 @@
+{
+  "name": "@koko/ui-example",
+  "version": "1.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "author": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "father build"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@ant-design/pro-components": "^2.6.43",
+    "antd": ">=5.2.2",
+    "recorder-core": "1.2.23070100"
+  }
+}
