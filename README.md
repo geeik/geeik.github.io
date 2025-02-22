@@ -1,7 +1,6 @@
 # blog
 
-[![NPM version](https://img.shields.io/npm/v/@meucan/libs.svg?style=flat)](https://npmjs.org/package/@meucan/libs)
-[![NPM downloads](http://img.shields.io/npm/dm/@meucan/libs.svg?style=flat)](https://npmjs.org/package/@meucan/libs)
+https://kokokkkkkk.github.io/
 
 ## Usage
 

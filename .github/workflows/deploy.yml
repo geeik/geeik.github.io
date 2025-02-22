@@ -3,7 +3,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - main  # 触发更新的分支
+      - main # 触发更新的分支
 
 jobs:
   deploy:
@@ -19,13 +19,13 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        run: npm install  # 如果有依赖需要安装
+        run: npm install # 如果有依赖需要安装
 
       - name: Build project
-        run: npm run build  # 如果有构建步骤
+        run: npm run docs:build # 构建步骤
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # 构建后的文件目录
+          publish_dir: ./dist # 构建后的文件目录
